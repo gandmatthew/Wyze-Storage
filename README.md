@@ -1,5 +1,5 @@
 # About
-This repository uses wz_mini_hacks to expose the firmware. This code is in active development. This project allows users to share and distribute files over the internet to their WyzeCams using a REST API with Mongoose Web Server. You are required to install a toolchain for this project and compile your own binaries.
+This repository uses wz_mini_hacks to expose the firmware. This code is in active development. This project allows users to share and distribute files over the internet to their WyzeCams using a REST API with Mongoose Web Server. You are required to install the gcc-mipsel-linux-gnu toolchain for this project and compile your own binaries.
 # Demo
 - WIP
 # Installation Steps
