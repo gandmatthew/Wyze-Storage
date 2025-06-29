@@ -5,4 +5,6 @@ This repository uses wz_mini_hacks to expose the firmware. This code is in activ
 # Installation Steps
 - Follow instructions with a compatible WyzeCam using [wz_mini_hacks](https://github.com/gtxaspec/wz_mini_hacks)
 - Clone this repository
-- 
+- Change IP...
+- Run `build.sh` locally inside `/mongoose-api` without any arguments, requires GCC toolchain
+- Execute generated binary file
