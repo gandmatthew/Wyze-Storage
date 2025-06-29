@@ -6,5 +6,5 @@ This repository uses wz_mini_hacks to expose the firmware. This code is in activ
 - Follow instructions with a compatible WyzeCam using [wz_mini_hacks](https://github.com/gtxaspec/wz_mini_hacks)
 - Clone this repository
 - Change IP...
-- Run `build.sh` locally inside `/mongoose-api` without any arguments, requires GCC toolchain
-- Execute generated binary file
+- Run `build_local.sh` inside `/mongoose-api` requires GCC toolchain, this creates a local copy for you to test with the `test.py` and `test.txt` to ensure files are being sent over the API
+- To create a production copy `docker build -t t20-ingenic-toolchain .`
